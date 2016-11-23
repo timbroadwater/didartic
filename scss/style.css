@@ -1,0 +1,187 @@
+/* For IE9 */
+a img {
+  border: none; }
+
+/* For Chrome & Firefox */
+*:focus {
+  outline: 0; }
+
+textarea:focus, input:focus {
+  outline: 0; }
+
+a:hover, a:active, a:focus {
+  outline: 0; }
+
+html, body, form, nav, ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+
+section {
+  padding: 20px; }
+  @media (min-width: 768px) {
+    section {
+      padding: 100px; } }
+
+.wrap {
+  width: 90%;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  display: block;
+  height: auto;
+  overflow: hidden; }
+
+video {
+  display: block; }
+
+p {
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 1em;
+  line-height: 150%;
+  text-align: left;
+  margin: 0;
+  max-width: 800px;
+  display: inline-block; }
+  @media (min-width: 768px) {
+    p {
+      font-size: 1.5em; } }
+
+h3 {
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  margin: 0 0 20px 0;
+  display: block; }
+  @media (min-width: 768px) {
+    h3 {
+      font-size: 2.5em;
+      margin: 0 0 65px 0; } }
+
+h2 {
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 1em;
+  line-height: 125%;
+  color: #5b96d2;
+  max-width: 800px;
+  display: inline-block;
+  margin: 0 0 90px 0; }
+  @media (min-width: 768px) {
+    h2 {
+      font-size: 2em;
+      margin: 0 0 20px 0; } }
+
+h1 {
+  font-family: "Bungee Shade", cursive;
+  font-size: 2.5em;
+  color: #abc9e8;
+  display: block;
+  margin: 0 0 30px 0; }
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 6em; } }
+
+.button {
+  display: inline-block;
+  padding: 20px;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Helvetica", Arial, sans-serif;
+  margin: 20px 0 90px 0;
+  text-decoration: none;
+  text-transform: uppercase; }
+  @media (min-width: 768px) {
+    .button {
+      margin: 65px 0 30px 0; } }
+  .button:hover {
+    border: 3px solid #3274b8;
+    color: #3274b8; }
+  .button .fa {
+    padding: 0 0 0 10px; }
+
+.hero {
+  background: url("../img/oldman64.gif") no-repeat bottom center; }
+
+.herobg {
+  height: 500px;
+  width: 100%;
+  display: block;
+  z-index: -2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3b1363+0,150d47+35,841a89+65,40b8d6+100 */
+  background: #3b1363;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #3b1363 0%, #150d47 35%, #841a89 65%, #40b8d6 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #3b1363 0%, #150d47 35%, #841a89 65%, #40b8d6 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #3b1363 0%, #150d47 35%, #841a89 65%, #40b8d6 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b1363', endColorstr='#40b8d6',GradientType=0 );
+  /* IE6-9 */ }
+
+.thesis {
+  background: url("../img/oldman64.gif") no-repeat bottom center #e7c8e7; }
+
+.timeline {
+  background: url("../img/oldman64.gif") no-repeat bottom center #abc9e8; }
+  .timeline ul {
+    border-left: 5px solid #d3e3f3;
+    padding-bottom: 3em;
+    position: relative;
+    list-style: outside none none;
+    margin: 65px 0 0 20px;
+    padding: 0px;
+    box-sizing: border-box; }
+    .timeline ul li {
+      color: #204974;
+      font-family: "Helvetica", Arial, sans-serif;
+      padding-top: 10px;
+      font-size: 1em;
+      margin-bottom: 1em;
+      position: relative;
+      text-align: left;
+      padding-left: 40px; }
+      @media (min-width: 768px) {
+        .timeline ul li {
+          font-size: 1.5em;
+          margin-bottom: 2em;
+          padding-top: 5px; } }
+      .timeline ul li a {
+        color: #fff; }
+        .timeline ul li a:hover {
+          color: #3274b8; }
+      .timeline ul li:before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: -17px;
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        background: #abc9e8 none repeat scroll 0% 0%;
+        border: 5px solid #d3e3f3; }
+
+.about {
+  background: #cdcdec; }
+  .about .site-info {
+    font-family: "Helvetica", Arial, sans-serif; }
+
+.dpink1 {
+  color: #d8a4d8; }
+
+.dpink2 {
+  color: #7b357b; }
+
+.dblue1 {
+  color: #83afdd; }
+
+.dblue2 {
+  color: #204974; }
+
+/*# sourceMappingURL=style.css.map */
